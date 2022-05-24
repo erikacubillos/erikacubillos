@@ -1,0 +1,36 @@
+{
+  "homepage":"https://yourusername.github.io/repository-name",
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "**En este proyecto buscamos que logres evidenciar tus conceptos avanzados de fundamentos web,haciendo uso de HTML, CSS e implementando JavaScript moderno.\r Además que sustentar los conocimientod adquiridos haciendo uso de marcos de trabajo CSS, implementación de preprocesadores y realizar páginas interactivas con JavaScript vanilla integrando Webpack y Babel**",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
